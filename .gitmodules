@@ -1,0 +1,9 @@
+[submodule "downward"]
+	path = downward
+	url = https://github.com/southpawac/FastDownward
+[submodule "pddlstream"]
+	path = pddlstream
+	url = https://github.com/southpawac/pddlstream.git
+[submodule "pybullet-planning"]
+	path = pybullet_planning
+	url = https://github.com/caelan/pybullet-planning.git

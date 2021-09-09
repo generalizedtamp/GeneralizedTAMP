@@ -1,0 +1,26 @@
+red_blue_gripper
+7 red-at-source 1 blue-at-source 1 at-src 0 at-red-target 0 at-blue-target 0 holding-red 0 holding-blue 0
+7 red-at-source 1 blue-at-source 1 at-src 1 at-red-target 0 at-blue-target 0 holding-red 0 holding-blue 0
+4 holding-red 0 holding-blue 0 red-at-source 0 blue-at-source 0
+7
+Pick-red
+4 red-at-source 1 at-src 1 holding-red 0 holding-blue 0
+2 red-at-source 0 holding-red 1
+Pick-blue
+4 blue-at-source 1 at-src 1 holding-red 0 holding-blue 0
+2 blue-at-source 0 holding-blue 1
+Place-red
+2 holding-red 1 at-red-target 1
+1 holding-red 0
+Place-blue
+2 holding-blue 1 at-blue-target 1
+1 holding-blue 0
+Move-src
+1 at-src 0
+3 at-src 1 at-red-target 0 at-blue-target 0
+Move-red-target
+1 at-src 1
+2 at-src 0 at-red-target 1
+Move-blue-target
+1 at-src 1
+2 at-src 0 at-blue-target 1

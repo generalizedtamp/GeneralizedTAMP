@@ -1,0 +1,8 @@
+(define (problem Stack_2)
+(:domain Stack)
+(:objects table obj0 obj1)
+(:init (on-table obj0)
+(on obj1 obj0)
+(clear obj1))
+(:goal (and (on-table obj0) (on-table obj1)))
+)

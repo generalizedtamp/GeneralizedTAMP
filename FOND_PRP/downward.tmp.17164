@@ -1,0 +1,12761 @@
+begin_version
+3
+end_version
+begin_metric
+0
+end_metric
+11
+begin_variable
+var1
+-1
+2
+Atom clear(b2)
+NegatedAtom clear(b2)
+end_variable
+begin_variable
+var4
+-1
+2
+Atom clear(b5)
+NegatedAtom clear(b5)
+end_variable
+begin_variable
+var7
+-1
+7
+Atom holding(b2)
+Atom on(b2, b1)
+Atom on(b2, b2)
+Atom on(b2, b3)
+Atom on(b2, b4)
+Atom on(b2, b5)
+Atom on-table(b2)
+end_variable
+begin_variable
+var0
+-1
+2
+Atom clear(b1)
+NegatedAtom clear(b1)
+end_variable
+begin_variable
+var6
+-1
+7
+Atom holding(b1)
+Atom on(b1, b1)
+Atom on(b1, b2)
+Atom on(b1, b3)
+Atom on(b1, b4)
+Atom on(b1, b5)
+Atom on-table(b1)
+end_variable
+begin_variable
+var10
+-1
+7
+Atom holding(b5)
+Atom on(b5, b1)
+Atom on(b5, b2)
+Atom on(b5, b3)
+Atom on(b5, b4)
+Atom on(b5, b5)
+Atom on-table(b5)
+end_variable
+begin_variable
+var8
+-1
+7
+Atom holding(b3)
+Atom on(b3, b1)
+Atom on(b3, b2)
+Atom on(b3, b3)
+Atom on(b3, b4)
+Atom on(b3, b5)
+Atom on-table(b3)
+end_variable
+begin_variable
+var2
+-1
+2
+Atom clear(b3)
+NegatedAtom clear(b3)
+end_variable
+begin_variable
+var9
+-1
+7
+Atom holding(b4)
+Atom on(b4, b1)
+Atom on(b4, b2)
+Atom on(b4, b3)
+Atom on(b4, b4)
+Atom on(b4, b5)
+Atom on-table(b4)
+end_variable
+begin_variable
+var3
+-1
+2
+Atom clear(b4)
+NegatedAtom clear(b4)
+end_variable
+begin_variable
+var5
+-1
+2
+Atom emptyhand()
+NegatedAtom emptyhand()
+end_variable
+1
+begin_mutex_group
+6
+10 0
+4 0
+2 0
+6 0
+8 0
+5 0
+end_mutex_group
+begin_state
+0
+0
+1
+1
+3
+4
+6
+1
+6
+1
+0
+end_state
+begin_goal
+9
+2 5
+3 0
+4 2
+5 6
+6 6
+7 0
+8 6
+9 0
+10 0
+end_goal
+595
+begin_operator
+pick-tower_DETDUP_1 b1 b1 b1
+1
+3 0
+2
+0 10 0 1
+0 4 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b1
+2
+3 0
+4 2
+2
+0 10 0 1
+0 2 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b2
+2
+3 0
+4 2
+3
+0 0 -1 0
+0 10 0 1
+0 2 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b3
+2
+3 0
+4 2
+3
+0 7 -1 0
+0 10 0 1
+0 2 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b4
+2
+3 0
+4 2
+3
+0 9 -1 0
+0 10 0 1
+0 2 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b2 b5
+2
+3 0
+4 2
+3
+0 1 -1 0
+0 10 0 1
+0 2 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b1
+2
+3 0
+4 3
+2
+0 10 0 1
+0 6 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b2
+2
+3 0
+4 3
+3
+0 0 -1 0
+0 10 0 1
+0 6 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b3
+2
+3 0
+4 3
+3
+0 7 -1 0
+0 10 0 1
+0 6 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b4
+2
+3 0
+4 3
+3
+0 9 -1 0
+0 10 0 1
+0 6 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b3 b5
+2
+3 0
+4 3
+3
+0 1 -1 0
+0 10 0 1
+0 6 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b1
+2
+3 0
+4 4
+2
+0 10 0 1
+0 8 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b2
+2
+3 0
+4 4
+3
+0 0 -1 0
+0 10 0 1
+0 8 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b3
+2
+3 0
+4 4
+3
+0 7 -1 0
+0 10 0 1
+0 8 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b4
+2
+3 0
+4 4
+3
+0 9 -1 0
+0 10 0 1
+0 8 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b4 b5
+2
+3 0
+4 4
+3
+0 1 -1 0
+0 10 0 1
+0 8 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b1
+2
+3 0
+4 5
+2
+0 10 0 1
+0 5 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b2
+2
+3 0
+4 5
+3
+0 0 -1 0
+0 10 0 1
+0 5 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b3
+2
+3 0
+4 5
+3
+0 7 -1 0
+0 10 0 1
+0 5 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b4
+2
+3 0
+4 5
+3
+0 9 -1 0
+0 10 0 1
+0 5 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b1 b5 b5
+2
+3 0
+4 5
+3
+0 1 -1 0
+0 10 0 1
+0 5 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b1
+2
+3 0
+2 1
+2
+0 10 0 1
+0 4 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b2
+2
+3 0
+2 1
+3
+0 0 -1 0
+0 10 0 1
+0 4 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b3
+2
+3 0
+2 1
+3
+0 7 -1 0
+0 10 0 1
+0 4 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b4
+2
+3 0
+2 1
+3
+0 9 -1 0
+0 10 0 1
+0 4 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b1 b5
+2
+3 0
+2 1
+3
+0 1 -1 0
+0 10 0 1
+0 4 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b2 b2
+1
+3 0
+3
+0 0 -1 0
+0 10 0 1
+0 2 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b3 b1
+2
+3 0
+2 3
+2
+0 10 0 1
+0 6 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b3 b2
+2
+3 0
+2 3
+3
+0 0 -1 0
+0 10 0 1
+0 6 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b3 b3
+2
+3 0
+2 3
+3
+0 7 -1 0
+0 10 0 1
+0 6 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b3 b4
+2
+3 0
+2 3
+3
+0 9 -1 0
+0 10 0 1
+0 6 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b3 b5
+2
+3 0
+2 3
+3
+0 1 -1 0
+0 10 0 1
+0 6 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b1
+2
+3 0
+2 4
+2
+0 10 0 1
+0 8 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b2
+2
+3 0
+2 4
+3
+0 0 -1 0
+0 10 0 1
+0 8 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b3
+2
+3 0
+2 4
+3
+0 7 -1 0
+0 10 0 1
+0 8 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b4
+2
+3 0
+2 4
+3
+0 9 -1 0
+0 10 0 1
+0 8 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b4 b5
+2
+3 0
+2 4
+3
+0 1 -1 0
+0 10 0 1
+0 8 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b1
+2
+3 0
+2 5
+2
+0 10 0 1
+0 5 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b2
+2
+3 0
+2 5
+3
+0 0 -1 0
+0 10 0 1
+0 5 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b3
+2
+3 0
+2 5
+3
+0 7 -1 0
+0 10 0 1
+0 5 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b4
+2
+3 0
+2 5
+3
+0 9 -1 0
+0 10 0 1
+0 5 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b2 b5 b5
+2
+3 0
+2 5
+3
+0 1 -1 0
+0 10 0 1
+0 5 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b1 b1
+2
+3 0
+6 1
+2
+0 10 0 1
+0 4 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b1 b2
+2
+3 0
+6 1
+3
+0 0 -1 0
+0 10 0 1
+0 4 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b1 b3
+2
+3 0
+6 1
+3
+0 7 -1 0
+0 10 0 1
+0 4 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b1 b4
+2
+3 0
+6 1
+3
+0 9 -1 0
+0 10 0 1
+0 4 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b1 b5
+2
+3 0
+6 1
+3
+0 1 -1 0
+0 10 0 1
+0 4 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b2 b1
+2
+3 0
+6 2
+2
+0 10 0 1
+0 2 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b2 b2
+2
+3 0
+6 2
+3
+0 0 -1 0
+0 10 0 1
+0 2 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b2 b3
+2
+3 0
+6 2
+3
+0 7 -1 0
+0 10 0 1
+0 2 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b2 b4
+2
+3 0
+6 2
+3
+0 9 -1 0
+0 10 0 1
+0 2 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b2 b5
+2
+3 0
+6 2
+3
+0 1 -1 0
+0 10 0 1
+0 2 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b3 b3
+1
+3 0
+3
+0 7 -1 0
+0 10 0 1
+0 6 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b4 b1
+2
+3 0
+6 4
+2
+0 10 0 1
+0 8 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b4 b2
+2
+3 0
+6 4
+3
+0 0 -1 0
+0 10 0 1
+0 8 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b4 b3
+2
+3 0
+6 4
+3
+0 7 -1 0
+0 10 0 1
+0 8 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b4 b4
+2
+3 0
+6 4
+3
+0 9 -1 0
+0 10 0 1
+0 8 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b4 b5
+2
+3 0
+6 4
+3
+0 1 -1 0
+0 10 0 1
+0 8 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b5 b1
+2
+3 0
+6 5
+2
+0 10 0 1
+0 5 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b5 b2
+2
+3 0
+6 5
+3
+0 0 -1 0
+0 10 0 1
+0 5 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b5 b3
+2
+3 0
+6 5
+3
+0 7 -1 0
+0 10 0 1
+0 5 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b5 b4
+2
+3 0
+6 5
+3
+0 9 -1 0
+0 10 0 1
+0 5 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b3 b5 b5
+2
+3 0
+6 5
+3
+0 1 -1 0
+0 10 0 1
+0 5 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b1 b1
+2
+3 0
+8 1
+2
+0 10 0 1
+0 4 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b1 b2
+2
+3 0
+8 1
+3
+0 0 -1 0
+0 10 0 1
+0 4 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b1 b3
+2
+3 0
+8 1
+3
+0 7 -1 0
+0 10 0 1
+0 4 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b1 b4
+2
+3 0
+8 1
+3
+0 9 -1 0
+0 10 0 1
+0 4 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b1 b5
+2
+3 0
+8 1
+3
+0 1 -1 0
+0 10 0 1
+0 4 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b2 b1
+2
+3 0
+8 2
+2
+0 10 0 1
+0 2 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b2 b2
+2
+3 0
+8 2
+3
+0 0 -1 0
+0 10 0 1
+0 2 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b2 b3
+2
+3 0
+8 2
+3
+0 7 -1 0
+0 10 0 1
+0 2 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b2 b4
+2
+3 0
+8 2
+3
+0 9 -1 0
+0 10 0 1
+0 2 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b2 b5
+2
+3 0
+8 2
+3
+0 1 -1 0
+0 10 0 1
+0 2 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b3 b1
+2
+3 0
+8 3
+2
+0 10 0 1
+0 6 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b3 b2
+2
+3 0
+8 3
+3
+0 0 -1 0
+0 10 0 1
+0 6 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b3 b3
+2
+3 0
+8 3
+3
+0 7 -1 0
+0 10 0 1
+0 6 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b3 b4
+2
+3 0
+8 3
+3
+0 9 -1 0
+0 10 0 1
+0 6 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b3 b5
+2
+3 0
+8 3
+3
+0 1 -1 0
+0 10 0 1
+0 6 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b4 b4
+1
+3 0
+3
+0 9 -1 0
+0 10 0 1
+0 8 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b5 b1
+2
+3 0
+8 5
+2
+0 10 0 1
+0 5 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b5 b2
+2
+3 0
+8 5
+3
+0 0 -1 0
+0 10 0 1
+0 5 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b5 b3
+2
+3 0
+8 5
+3
+0 7 -1 0
+0 10 0 1
+0 5 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b5 b4
+2
+3 0
+8 5
+3
+0 9 -1 0
+0 10 0 1
+0 5 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b4 b5 b5
+2
+3 0
+8 5
+3
+0 1 -1 0
+0 10 0 1
+0 5 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b1 b1
+2
+3 0
+5 1
+2
+0 10 0 1
+0 4 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b1 b2
+2
+3 0
+5 1
+3
+0 0 -1 0
+0 10 0 1
+0 4 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b1 b3
+2
+3 0
+5 1
+3
+0 7 -1 0
+0 10 0 1
+0 4 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b1 b4
+2
+3 0
+5 1
+3
+0 9 -1 0
+0 10 0 1
+0 4 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b1 b5
+2
+3 0
+5 1
+3
+0 1 -1 0
+0 10 0 1
+0 4 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b2 b1
+2
+3 0
+5 2
+2
+0 10 0 1
+0 2 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b2 b2
+2
+3 0
+5 2
+3
+0 0 -1 0
+0 10 0 1
+0 2 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b2 b3
+2
+3 0
+5 2
+3
+0 7 -1 0
+0 10 0 1
+0 2 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b2 b4
+2
+3 0
+5 2
+3
+0 9 -1 0
+0 10 0 1
+0 2 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b2 b5
+2
+3 0
+5 2
+3
+0 1 -1 0
+0 10 0 1
+0 2 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b3 b1
+2
+3 0
+5 3
+2
+0 10 0 1
+0 6 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b3 b2
+2
+3 0
+5 3
+3
+0 0 -1 0
+0 10 0 1
+0 6 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b3 b3
+2
+3 0
+5 3
+3
+0 7 -1 0
+0 10 0 1
+0 6 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b3 b4
+2
+3 0
+5 3
+3
+0 9 -1 0
+0 10 0 1
+0 6 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b3 b5
+2
+3 0
+5 3
+3
+0 1 -1 0
+0 10 0 1
+0 6 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b4 b1
+2
+3 0
+5 4
+2
+0 10 0 1
+0 8 1 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b4 b2
+2
+3 0
+5 4
+3
+0 0 -1 0
+0 10 0 1
+0 8 2 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b4 b3
+2
+3 0
+5 4
+3
+0 7 -1 0
+0 10 0 1
+0 8 3 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b4 b4
+2
+3 0
+5 4
+3
+0 9 -1 0
+0 10 0 1
+0 8 4 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b4 b5
+2
+3 0
+5 4
+3
+0 1 -1 0
+0 10 0 1
+0 8 5 0
+0
+end_operator
+begin_operator
+pick-tower_DETDUP_1 b5 b5 b5
+1
+3 0
+3
+0 1 -1 0
+0 10 0 1
+0 5 5 0
+0
+end_operator
+begin_operator
+pick-up-from-table_DETDUP_1 b1
+1
+3 0
+2
+0 10 0 1
+0 4 6 0
+0
+end_operator
+begin_operator
+pick-up-from-table_DETDUP_1 b2
+1
+0 0
+2
+0 10 0 1
+0 2 6 0
+0
+end_operator
+begin_operator
+pick-up-from-table_DETDUP_1 b3
+1
+7 0
+2
+0 10 0 1
+0 6 6 0
+0
+end_operator
+begin_operator
+pick-up-from-table_DETDUP_1 b4
+1
+9 0
+2
+0 10 0 1
+0 8 6 0
+0
+end_operator
+begin_operator
+pick-up-from-table_DETDUP_1 b5
+1
+1 0
+2
+0 10 0 1
+0 5 6 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b1 b1
+1
+3 0
+2
+0 10 0 1
+0 4 1 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b1 b2
+0
+4
+0 3 0 1
+0 0 -1 0
+0 10 0 1
+0 4 2 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b1 b3
+0
+4
+0 3 0 1
+0 7 -1 0
+0 10 0 1
+0 4 3 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b1 b4
+0
+4
+0 3 0 1
+0 9 -1 0
+0 10 0 1
+0 4 4 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b1 b5
+0
+4
+0 3 0 1
+0 1 -1 0
+0 10 0 1
+0 4 5 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b2 b1
+0
+4
+0 3 -1 0
+0 0 0 1
+0 10 0 1
+0 2 1 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b2 b2
+1
+0 0
+2
+0 10 0 1
+0 2 2 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b2 b3
+0
+4
+0 0 0 1
+0 7 -1 0
+0 10 0 1
+0 2 3 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b2 b4
+0
+4
+0 0 0 1
+0 9 -1 0
+0 10 0 1
+0 2 4 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b2 b5
+0
+4
+0 0 0 1
+0 1 -1 0
+0 10 0 1
+0 2 5 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b3 b1
+0
+4
+0 3 -1 0
+0 7 0 1
+0 10 0 1
+0 6 1 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b3 b2
+0
+4
+0 0 -1 0
+0 7 0 1
+0 10 0 1
+0 6 2 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b3 b3
+1
+7 0
+2
+0 10 0 1
+0 6 3 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b3 b4
+0
+4
+0 7 0 1
+0 9 -1 0
+0 10 0 1
+0 6 4 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b3 b5
+0
+4
+0 7 0 1
+0 1 -1 0
+0 10 0 1
+0 6 5 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b4 b1
+0
+4
+0 3 -1 0
+0 9 0 1
+0 10 0 1
+0 8 1 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b4 b2
+0
+4
+0 0 -1 0
+0 9 0 1
+0 10 0 1
+0 8 2 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b4 b3
+0
+4
+0 7 -1 0
+0 9 0 1
+0 10 0 1
+0 8 3 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b4 b4
+1
+9 0
+2
+0 10 0 1
+0 8 4 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b4 b5
+0
+4
+0 9 0 1
+0 1 -1 0
+0 10 0 1
+0 8 5 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b5 b1
+0
+4
+0 3 -1 0
+0 1 0 1
+0 10 0 1
+0 5 1 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b5 b2
+0
+4
+0 0 -1 0
+0 1 0 1
+0 10 0 1
+0 5 2 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b5 b3
+0
+4
+0 7 -1 0
+0 1 0 1
+0 10 0 1
+0 5 3 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b5 b4
+0
+4
+0 9 -1 0
+0 1 0 1
+0 10 0 1
+0 5 4 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_0 b5 b5
+1
+1 0
+2
+0 10 0 1
+0 5 5 0
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b1 b1
+2
+3 0
+10 0
+1
+0 4 1 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b1 b2
+2
+3 0
+10 0
+2
+0 0 -1 0
+0 4 2 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b1 b3
+2
+3 0
+10 0
+2
+0 7 -1 0
+0 4 3 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b1 b4
+2
+3 0
+10 0
+2
+0 9 -1 0
+0 4 4 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b1 b5
+2
+3 0
+10 0
+2
+0 1 -1 0
+0 4 5 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b1
+2
+0 0
+10 0
+2
+0 3 -1 0
+0 2 1 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b2
+2
+0 0
+10 0
+1
+0 2 2 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b3
+2
+0 0
+10 0
+2
+0 7 -1 0
+0 2 3 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b4
+2
+0 0
+10 0
+2
+0 9 -1 0
+0 2 4 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b2 b5
+2
+0 0
+10 0
+2
+0 1 -1 0
+0 2 5 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b1
+2
+7 0
+10 0
+2
+0 3 -1 0
+0 6 1 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b2
+2
+7 0
+10 0
+2
+0 0 -1 0
+0 6 2 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b3
+2
+7 0
+10 0
+1
+0 6 3 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b4
+2
+7 0
+10 0
+2
+0 9 -1 0
+0 6 4 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b3 b5
+2
+7 0
+10 0
+2
+0 1 -1 0
+0 6 5 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b1
+2
+9 0
+10 0
+2
+0 3 -1 0
+0 8 1 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b2
+2
+9 0
+10 0
+2
+0 0 -1 0
+0 8 2 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b3
+2
+9 0
+10 0
+2
+0 7 -1 0
+0 8 3 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b4
+2
+9 0
+10 0
+1
+0 8 4 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b4 b5
+2
+9 0
+10 0
+2
+0 1 -1 0
+0 8 5 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b1
+2
+1 0
+10 0
+2
+0 3 -1 0
+0 5 1 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b2
+2
+1 0
+10 0
+2
+0 0 -1 0
+0 5 2 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b3
+2
+1 0
+10 0
+2
+0 7 -1 0
+0 5 3 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b4
+2
+1 0
+10 0
+2
+0 9 -1 0
+0 5 4 6
+0
+end_operator
+begin_operator
+pick-up_DETDUP_1 b5 b5
+2
+1 0
+10 0
+1
+0 5 5 6
+0
+end_operator
+begin_operator
+put-down b1
+0
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-down b2
+0
+3
+0 0 -1 0
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-down b3
+0
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-down b4
+0
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-down b5
+0
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b1
+0
+4
+0 3 0 1
+0 0 -1 0
+0 10 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b2
+1
+0 0
+2
+0 10 -1 0
+0 2 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b3
+0
+4
+0 0 -1 0
+0 7 0 1
+0 10 -1 0
+0 2 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b4
+0
+4
+0 0 -1 0
+0 9 0 1
+0 10 -1 0
+0 2 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0 b2 b5
+0
+4
+0 0 -1 0
+0 1 0 1
+0 10 -1 0
+0 2 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b1 b1
+2
+3 0
+2 0
+2
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b1 b2
+1
+2 0
+4
+0 3 -1 0
+0 0 0 1
+0 10 -1 0
+0 4 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b1 b3
+1
+2 0
+4
+0 3 -1 0
+0 7 0 1
+0 10 -1 0
+0 4 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b1 b4
+1
+2 0
+4
+0 3 -1 0
+0 9 0 1
+0 10 -1 0
+0 4 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b1 b5
+1
+2 0
+4
+0 3 -1 0
+0 1 0 1
+0 10 -1 0
+0 4 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b3 b1
+1
+2 0
+4
+0 3 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b3 b2
+1
+2 0
+4
+0 0 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b3 b3
+2
+7 0
+2 0
+2
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b3 b4
+1
+2 0
+4
+0 7 -1 0
+0 9 0 1
+0 10 -1 0
+0 6 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b3 b5
+1
+2 0
+4
+0 7 -1 0
+0 1 0 1
+0 10 -1 0
+0 6 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b4 b1
+1
+2 0
+4
+0 3 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b4 b2
+1
+2 0
+4
+0 0 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b4 b3
+1
+2 0
+4
+0 7 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b4 b4
+2
+9 0
+2 0
+2
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b4 b5
+1
+2 0
+4
+0 9 -1 0
+0 1 0 1
+0 10 -1 0
+0 8 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b5 b1
+1
+2 0
+4
+0 3 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b5 b2
+1
+2 0
+4
+0 0 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b5 b3
+1
+2 0
+4
+0 7 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b5 b4
+1
+2 0
+4
+0 9 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v1 b5 b5
+2
+1 0
+2 0
+2
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b1 b1
+2
+3 0
+2 2
+2
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b1 b2
+1
+2 2
+4
+0 3 -1 0
+0 0 0 1
+0 10 -1 0
+0 4 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b1 b3
+1
+2 2
+4
+0 3 -1 0
+0 7 0 1
+0 10 -1 0
+0 4 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b1 b4
+1
+2 2
+4
+0 3 -1 0
+0 9 0 1
+0 10 -1 0
+0 4 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b1 b5
+1
+2 2
+4
+0 3 -1 0
+0 1 0 1
+0 10 -1 0
+0 4 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b3 b1
+1
+2 2
+4
+0 3 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b3 b2
+1
+2 2
+4
+0 0 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b3 b3
+2
+7 0
+2 2
+2
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b3 b4
+1
+2 2
+4
+0 7 -1 0
+0 9 0 1
+0 10 -1 0
+0 6 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b3 b5
+1
+2 2
+4
+0 7 -1 0
+0 1 0 1
+0 10 -1 0
+0 6 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b4 b1
+1
+2 2
+4
+0 3 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b4 b2
+1
+2 2
+4
+0 0 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b4 b3
+1
+2 2
+4
+0 7 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b4 b4
+2
+9 0
+2 2
+2
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b4 b5
+1
+2 2
+4
+0 9 -1 0
+0 1 0 1
+0 10 -1 0
+0 8 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b5 b1
+1
+2 2
+4
+0 3 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b5 b2
+1
+2 2
+4
+0 0 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b5 b3
+1
+2 2
+4
+0 7 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b5 b4
+1
+2 2
+4
+0 9 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v2 b5 b5
+2
+1 0
+2 2
+2
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b1 b1
+2
+3 0
+2 3
+2
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b1 b2
+1
+2 3
+4
+0 3 -1 0
+0 0 0 1
+0 10 -1 0
+0 4 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b1 b3
+1
+2 3
+4
+0 3 -1 0
+0 7 0 1
+0 10 -1 0
+0 4 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b1 b4
+1
+2 3
+4
+0 3 -1 0
+0 9 0 1
+0 10 -1 0
+0 4 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b1 b5
+1
+2 3
+4
+0 3 -1 0
+0 1 0 1
+0 10 -1 0
+0 4 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b3 b1
+1
+2 3
+4
+0 3 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b3 b2
+1
+2 3
+4
+0 0 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b3 b3
+2
+7 0
+2 3
+2
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b3 b4
+1
+2 3
+4
+0 7 -1 0
+0 9 0 1
+0 10 -1 0
+0 6 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b3 b5
+1
+2 3
+4
+0 7 -1 0
+0 1 0 1
+0 10 -1 0
+0 6 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b4 b1
+1
+2 3
+4
+0 3 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b4 b2
+1
+2 3
+4
+0 0 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b4 b3
+1
+2 3
+4
+0 7 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b4 b4
+2
+9 0
+2 3
+2
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b4 b5
+1
+2 3
+4
+0 9 -1 0
+0 1 0 1
+0 10 -1 0
+0 8 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b5 b1
+1
+2 3
+4
+0 3 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b5 b2
+1
+2 3
+4
+0 0 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b5 b3
+1
+2 3
+4
+0 7 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b5 b4
+1
+2 3
+4
+0 9 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v3 b5 b5
+2
+1 0
+2 3
+2
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b1 b1
+2
+3 0
+2 4
+2
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b1 b2
+1
+2 4
+4
+0 3 -1 0
+0 0 0 1
+0 10 -1 0
+0 4 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b1 b3
+1
+2 4
+4
+0 3 -1 0
+0 7 0 1
+0 10 -1 0
+0 4 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b1 b4
+1
+2 4
+4
+0 3 -1 0
+0 9 0 1
+0 10 -1 0
+0 4 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b1 b5
+1
+2 4
+4
+0 3 -1 0
+0 1 0 1
+0 10 -1 0
+0 4 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b3 b1
+1
+2 4
+4
+0 3 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b3 b2
+1
+2 4
+4
+0 0 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b3 b3
+2
+7 0
+2 4
+2
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b3 b4
+1
+2 4
+4
+0 7 -1 0
+0 9 0 1
+0 10 -1 0
+0 6 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b3 b5
+1
+2 4
+4
+0 7 -1 0
+0 1 0 1
+0 10 -1 0
+0 6 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b4 b1
+1
+2 4
+4
+0 3 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b4 b2
+1
+2 4
+4
+0 0 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b4 b3
+1
+2 4
+4
+0 7 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b4 b4
+2
+9 0
+2 4
+2
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b4 b5
+1
+2 4
+4
+0 9 -1 0
+0 1 0 1
+0 10 -1 0
+0 8 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b5 b1
+1
+2 4
+4
+0 3 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b5 b2
+1
+2 4
+4
+0 0 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b5 b3
+1
+2 4
+4
+0 7 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b5 b4
+1
+2 4
+4
+0 9 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v4 b5 b5
+2
+1 0
+2 4
+2
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b1 b1
+2
+3 0
+2 5
+2
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b1 b2
+1
+2 5
+4
+0 3 -1 0
+0 0 0 1
+0 10 -1 0
+0 4 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b1 b3
+1
+2 5
+4
+0 3 -1 0
+0 7 0 1
+0 10 -1 0
+0 4 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b1 b4
+1
+2 5
+4
+0 3 -1 0
+0 9 0 1
+0 10 -1 0
+0 4 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b1 b5
+1
+2 5
+4
+0 3 -1 0
+0 1 0 1
+0 10 -1 0
+0 4 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b3 b1
+1
+2 5
+4
+0 3 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b3 b2
+1
+2 5
+4
+0 0 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b3 b3
+2
+7 0
+2 5
+2
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b3 b4
+1
+2 5
+4
+0 7 -1 0
+0 9 0 1
+0 10 -1 0
+0 6 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b3 b5
+1
+2 5
+4
+0 7 -1 0
+0 1 0 1
+0 10 -1 0
+0 6 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b4 b1
+1
+2 5
+4
+0 3 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b4 b2
+1
+2 5
+4
+0 0 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b4 b3
+1
+2 5
+4
+0 7 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b4 b4
+2
+9 0
+2 5
+2
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b4 b5
+1
+2 5
+4
+0 9 -1 0
+0 1 0 1
+0 10 -1 0
+0 8 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b5 b1
+1
+2 5
+4
+0 3 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b5 b2
+1
+2 5
+4
+0 0 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b5 b3
+1
+2 5
+4
+0 7 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b5 b4
+1
+2 5
+4
+0 9 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v5 b5 b5
+2
+1 0
+2 5
+2
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b1 b1
+2
+3 0
+2 6
+2
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b1 b2
+1
+2 6
+4
+0 3 -1 0
+0 0 0 1
+0 10 -1 0
+0 4 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b1 b3
+1
+2 6
+4
+0 3 -1 0
+0 7 0 1
+0 10 -1 0
+0 4 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b1 b4
+1
+2 6
+4
+0 3 -1 0
+0 9 0 1
+0 10 -1 0
+0 4 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b1 b5
+1
+2 6
+4
+0 3 -1 0
+0 1 0 1
+0 10 -1 0
+0 4 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b3 b1
+1
+2 6
+4
+0 3 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b3 b2
+1
+2 6
+4
+0 0 0 1
+0 7 -1 0
+0 10 -1 0
+0 6 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b3 b3
+2
+7 0
+2 6
+2
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b3 b4
+1
+2 6
+4
+0 7 -1 0
+0 9 0 1
+0 10 -1 0
+0 6 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b3 b5
+1
+2 6
+4
+0 7 -1 0
+0 1 0 1
+0 10 -1 0
+0 6 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b4 b1
+1
+2 6
+4
+0 3 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b4 b2
+1
+2 6
+4
+0 0 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b4 b3
+1
+2 6
+4
+0 7 0 1
+0 9 -1 0
+0 10 -1 0
+0 8 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b4 b4
+2
+9 0
+2 6
+2
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b4 b5
+1
+2 6
+4
+0 9 -1 0
+0 1 0 1
+0 10 -1 0
+0 8 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b5 b1
+1
+2 6
+4
+0 3 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 1
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b5 b2
+1
+2 6
+4
+0 0 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 2
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b5 b3
+1
+2 6
+4
+0 7 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 3
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b5 b4
+1
+2 6
+4
+0 9 0 1
+0 1 -1 0
+0 10 -1 0
+0 5 0 4
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_0_v6 b5 b5
+2
+1 0
+2 6
+2
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b1
+1
+3 0
+3
+0 0 -1 0
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b2
+1
+0 0
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b3
+1
+7 0
+3
+0 0 -1 0
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b4
+1
+9 0
+3
+0 0 -1 0
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1 b2 b5
+1
+1 0
+3
+0 0 -1 0
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b1 b1
+2
+3 0
+2 0
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b1 b2
+2
+0 0
+2 0
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b1 b3
+2
+7 0
+2 0
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b1 b4
+2
+9 0
+2 0
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b1 b5
+2
+1 0
+2 0
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b3 b1
+2
+3 0
+2 0
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b3 b2
+2
+0 0
+2 0
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b3 b3
+2
+7 0
+2 0
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b3 b4
+2
+9 0
+2 0
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b3 b5
+2
+1 0
+2 0
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b4 b1
+2
+3 0
+2 0
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b4 b2
+2
+0 0
+2 0
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b4 b3
+2
+7 0
+2 0
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b4 b4
+2
+9 0
+2 0
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b4 b5
+2
+1 0
+2 0
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b5 b1
+2
+3 0
+2 0
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b5 b2
+2
+0 0
+2 0
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b5 b3
+2
+7 0
+2 0
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b5 b4
+2
+9 0
+2 0
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v1 b5 b5
+2
+1 0
+2 0
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b1 b1
+2
+3 0
+2 2
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b1 b2
+2
+0 0
+2 2
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b1 b3
+2
+7 0
+2 2
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b1 b4
+2
+9 0
+2 2
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b1 b5
+2
+1 0
+2 2
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b3 b1
+2
+3 0
+2 2
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b3 b2
+2
+0 0
+2 2
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b3 b3
+2
+7 0
+2 2
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b3 b4
+2
+9 0
+2 2
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b3 b5
+2
+1 0
+2 2
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b4 b1
+2
+3 0
+2 2
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b4 b2
+2
+0 0
+2 2
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b4 b3
+2
+7 0
+2 2
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b4 b4
+2
+9 0
+2 2
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b4 b5
+2
+1 0
+2 2
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b5 b1
+2
+3 0
+2 2
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b5 b2
+2
+0 0
+2 2
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b5 b3
+2
+7 0
+2 2
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b5 b4
+2
+9 0
+2 2
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v2 b5 b5
+2
+1 0
+2 2
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b1 b1
+2
+3 0
+2 3
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b1 b2
+2
+0 0
+2 3
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b1 b3
+2
+7 0
+2 3
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b1 b4
+2
+9 0
+2 3
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b1 b5
+2
+1 0
+2 3
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b3 b1
+2
+3 0
+2 3
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b3 b2
+2
+0 0
+2 3
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b3 b3
+2
+7 0
+2 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b3 b4
+2
+9 0
+2 3
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b3 b5
+2
+1 0
+2 3
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b4 b1
+2
+3 0
+2 3
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b4 b2
+2
+0 0
+2 3
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b4 b3
+2
+7 0
+2 3
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b4 b4
+2
+9 0
+2 3
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b4 b5
+2
+1 0
+2 3
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b5 b1
+2
+3 0
+2 3
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b5 b2
+2
+0 0
+2 3
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b5 b3
+2
+7 0
+2 3
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b5 b4
+2
+9 0
+2 3
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v3 b5 b5
+2
+1 0
+2 3
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b1 b1
+2
+3 0
+2 4
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b1 b2
+2
+0 0
+2 4
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b1 b3
+2
+7 0
+2 4
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b1 b4
+2
+9 0
+2 4
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b1 b5
+2
+1 0
+2 4
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b3 b1
+2
+3 0
+2 4
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b3 b2
+2
+0 0
+2 4
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b3 b3
+2
+7 0
+2 4
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b3 b4
+2
+9 0
+2 4
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b3 b5
+2
+1 0
+2 4
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b4 b1
+2
+3 0
+2 4
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b4 b2
+2
+0 0
+2 4
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b4 b3
+2
+7 0
+2 4
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b4 b4
+2
+9 0
+2 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b4 b5
+2
+1 0
+2 4
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b5 b1
+2
+3 0
+2 4
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b5 b2
+2
+0 0
+2 4
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b5 b3
+2
+7 0
+2 4
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b5 b4
+2
+9 0
+2 4
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v4 b5 b5
+2
+1 0
+2 4
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b1 b1
+2
+3 0
+2 5
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b1 b2
+2
+0 0
+2 5
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b1 b3
+2
+7 0
+2 5
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b1 b4
+2
+9 0
+2 5
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b1 b5
+2
+1 0
+2 5
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b3 b1
+2
+3 0
+2 5
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b3 b2
+2
+0 0
+2 5
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b3 b3
+2
+7 0
+2 5
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b3 b4
+2
+9 0
+2 5
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b3 b5
+2
+1 0
+2 5
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b4 b1
+2
+3 0
+2 5
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b4 b2
+2
+0 0
+2 5
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b4 b3
+2
+7 0
+2 5
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b4 b4
+2
+9 0
+2 5
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b4 b5
+2
+1 0
+2 5
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b5 b1
+2
+3 0
+2 5
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b5 b2
+2
+0 0
+2 5
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b5 b3
+2
+7 0
+2 5
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b5 b4
+2
+9 0
+2 5
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v5 b5 b5
+2
+1 0
+2 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b1 b1
+2
+3 0
+2 6
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b1 b2
+2
+0 0
+2 6
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b1 b3
+2
+7 0
+2 6
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b1 b4
+2
+9 0
+2 6
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b1 b5
+2
+1 0
+2 6
+3
+0 3 -1 0
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b3 b1
+2
+3 0
+2 6
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b3 b2
+2
+0 0
+2 6
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b3 b3
+2
+7 0
+2 6
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b3 b4
+2
+9 0
+2 6
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b3 b5
+2
+1 0
+2 6
+3
+0 7 -1 0
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b4 b1
+2
+3 0
+2 6
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b4 b2
+2
+0 0
+2 6
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b4 b3
+2
+7 0
+2 6
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b4 b4
+2
+9 0
+2 6
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b4 b5
+2
+1 0
+2 6
+3
+0 9 -1 0
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b5 b1
+2
+3 0
+2 6
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b5 b2
+2
+0 0
+2 6
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b5 b3
+2
+7 0
+2 6
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b5 b4
+2
+9 0
+2 6
+3
+0 1 -1 0
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-on-block_DETDUP_1_v6 b5 b5
+2
+1 0
+2 6
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-down b1 b2
+1
+4 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-down b1 b3
+1
+4 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-down b1 b4
+1
+4 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-down b1 b5
+1
+4 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-down b2 b1
+1
+2 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-down b2 b3
+1
+2 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-down b2 b4
+1
+2 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-down b2 b5
+1
+2 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-down b3 b1
+1
+6 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-down b3 b2
+1
+6 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-down b3 b4
+1
+6 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-down b3 b5
+1
+6 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-down b4 b1
+1
+8 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-down b4 b2
+1
+8 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-down b4 b3
+1
+8 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-down b4 b5
+1
+8 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-down b5 b1
+1
+5 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-down b5 b2
+1
+5 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-down b5 b3
+1
+5 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-down b5 b4
+1
+5 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b2
+1
+4 2
+3
+0 0 0 1
+0 10 -1 0
+0 2 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b3
+1
+4 2
+3
+0 7 0 1
+0 10 -1 0
+0 2 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b4
+1
+4 2
+3
+0 9 0 1
+0 10 -1 0
+0 2 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b2 b5
+1
+4 2
+3
+0 1 0 1
+0 10 -1 0
+0 2 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b2
+1
+4 3
+3
+0 0 0 1
+0 10 -1 0
+0 6 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b3
+1
+4 3
+3
+0 7 0 1
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b4
+1
+4 3
+3
+0 9 0 1
+0 10 -1 0
+0 6 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b3 b5
+1
+4 3
+3
+0 1 0 1
+0 10 -1 0
+0 6 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b2
+1
+4 4
+3
+0 0 0 1
+0 10 -1 0
+0 8 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b3
+1
+4 4
+3
+0 7 0 1
+0 10 -1 0
+0 8 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b4
+1
+4 4
+3
+0 9 0 1
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b4 b5
+1
+4 4
+3
+0 1 0 1
+0 10 -1 0
+0 8 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b2
+1
+4 5
+3
+0 0 0 1
+0 10 -1 0
+0 5 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b3
+1
+4 5
+3
+0 7 0 1
+0 10 -1 0
+0 5 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b4
+1
+4 5
+3
+0 9 0 1
+0 10 -1 0
+0 5 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b1 b5 b5
+1
+4 5
+3
+0 1 0 1
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b1
+1
+2 1
+3
+0 3 0 1
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b3
+1
+2 1
+3
+0 7 0 1
+0 10 -1 0
+0 4 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b4
+1
+2 1
+3
+0 9 0 1
+0 10 -1 0
+0 4 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b1 b5
+1
+2 1
+3
+0 1 0 1
+0 10 -1 0
+0 4 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b1
+1
+2 3
+3
+0 3 0 1
+0 10 -1 0
+0 6 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b3
+1
+2 3
+3
+0 7 0 1
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b4
+1
+2 3
+3
+0 9 0 1
+0 10 -1 0
+0 6 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b3 b5
+1
+2 3
+3
+0 1 0 1
+0 10 -1 0
+0 6 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b1
+1
+2 4
+3
+0 3 0 1
+0 10 -1 0
+0 8 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b3
+1
+2 4
+3
+0 7 0 1
+0 10 -1 0
+0 8 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b4
+1
+2 4
+3
+0 9 0 1
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b4 b5
+1
+2 4
+3
+0 1 0 1
+0 10 -1 0
+0 8 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b1
+1
+2 5
+3
+0 3 0 1
+0 10 -1 0
+0 5 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b3
+1
+2 5
+3
+0 7 0 1
+0 10 -1 0
+0 5 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b4
+1
+2 5
+3
+0 9 0 1
+0 10 -1 0
+0 5 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b2 b5 b5
+1
+2 5
+3
+0 1 0 1
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b1
+1
+6 1
+3
+0 3 0 1
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b2
+1
+6 1
+3
+0 0 0 1
+0 10 -1 0
+0 4 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b4
+1
+6 1
+3
+0 9 0 1
+0 10 -1 0
+0 4 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b1 b5
+1
+6 1
+3
+0 1 0 1
+0 10 -1 0
+0 4 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b1
+1
+6 2
+3
+0 3 0 1
+0 10 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b2
+1
+6 2
+3
+0 0 0 1
+0 10 -1 0
+0 2 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b4
+1
+6 2
+3
+0 9 0 1
+0 10 -1 0
+0 2 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b2 b5
+1
+6 2
+3
+0 1 0 1
+0 10 -1 0
+0 2 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b1
+1
+6 4
+3
+0 3 0 1
+0 10 -1 0
+0 8 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b2
+1
+6 4
+3
+0 0 0 1
+0 10 -1 0
+0 8 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b4
+1
+6 4
+3
+0 9 0 1
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b4 b5
+1
+6 4
+3
+0 1 0 1
+0 10 -1 0
+0 8 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b1
+1
+6 5
+3
+0 3 0 1
+0 10 -1 0
+0 5 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b2
+1
+6 5
+3
+0 0 0 1
+0 10 -1 0
+0 5 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b4
+1
+6 5
+3
+0 9 0 1
+0 10 -1 0
+0 5 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b3 b5 b5
+1
+6 5
+3
+0 1 0 1
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b1
+1
+8 1
+3
+0 3 0 1
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b2
+1
+8 1
+3
+0 0 0 1
+0 10 -1 0
+0 4 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b3
+1
+8 1
+3
+0 7 0 1
+0 10 -1 0
+0 4 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b1 b5
+1
+8 1
+3
+0 1 0 1
+0 10 -1 0
+0 4 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b1
+1
+8 2
+3
+0 3 0 1
+0 10 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b2
+1
+8 2
+3
+0 0 0 1
+0 10 -1 0
+0 2 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b3
+1
+8 2
+3
+0 7 0 1
+0 10 -1 0
+0 2 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b2 b5
+1
+8 2
+3
+0 1 0 1
+0 10 -1 0
+0 2 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b1
+1
+8 3
+3
+0 3 0 1
+0 10 -1 0
+0 6 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b2
+1
+8 3
+3
+0 0 0 1
+0 10 -1 0
+0 6 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b3
+1
+8 3
+3
+0 7 0 1
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b3 b5
+1
+8 3
+3
+0 1 0 1
+0 10 -1 0
+0 6 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b1
+1
+8 5
+3
+0 3 0 1
+0 10 -1 0
+0 5 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b2
+1
+8 5
+3
+0 0 0 1
+0 10 -1 0
+0 5 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b3
+1
+8 5
+3
+0 7 0 1
+0 10 -1 0
+0 5 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b4 b5 b5
+1
+8 5
+3
+0 1 0 1
+0 10 -1 0
+0 5 0 5
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b1
+1
+5 1
+3
+0 3 0 1
+0 10 -1 0
+0 4 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b2
+1
+5 1
+3
+0 0 0 1
+0 10 -1 0
+0 4 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b3
+1
+5 1
+3
+0 7 0 1
+0 10 -1 0
+0 4 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b1 b4
+1
+5 1
+3
+0 9 0 1
+0 10 -1 0
+0 4 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b1
+1
+5 2
+3
+0 3 0 1
+0 10 -1 0
+0 2 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b2
+1
+5 2
+3
+0 0 0 1
+0 10 -1 0
+0 2 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b3
+1
+5 2
+3
+0 7 0 1
+0 10 -1 0
+0 2 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b2 b4
+1
+5 2
+3
+0 9 0 1
+0 10 -1 0
+0 2 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b1
+1
+5 3
+3
+0 3 0 1
+0 10 -1 0
+0 6 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b2
+1
+5 3
+3
+0 0 0 1
+0 10 -1 0
+0 6 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b3
+1
+5 3
+3
+0 7 0 1
+0 10 -1 0
+0 6 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b3 b4
+1
+5 3
+3
+0 9 0 1
+0 10 -1 0
+0 6 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b1
+1
+5 4
+3
+0 3 0 1
+0 10 -1 0
+0 8 0 1
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b2
+1
+5 4
+3
+0 0 0 1
+0 10 -1 0
+0 8 0 2
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b3
+1
+5 4
+3
+0 7 0 1
+0 10 -1 0
+0 8 0 3
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_0 b5 b4 b4
+1
+5 4
+3
+0 9 0 1
+0 10 -1 0
+0 8 0 4
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b2
+2
+0 0
+4 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b3
+2
+7 0
+4 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b4
+2
+9 0
+4 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b2 b5
+2
+1 0
+4 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b2
+2
+0 0
+4 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b3
+2
+7 0
+4 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b4
+2
+9 0
+4 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b3 b5
+2
+1 0
+4 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b2
+2
+0 0
+4 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b3
+2
+7 0
+4 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b4
+2
+9 0
+4 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b4 b5
+2
+1 0
+4 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b2
+2
+0 0
+4 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b3
+2
+7 0
+4 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b4
+2
+9 0
+4 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b1 b5 b5
+2
+1 0
+4 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b1
+2
+3 0
+2 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b3
+2
+7 0
+2 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b4
+2
+9 0
+2 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b1 b5
+2
+1 0
+2 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b1
+2
+3 0
+2 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b3
+2
+7 0
+2 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b4
+2
+9 0
+2 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b3 b5
+2
+1 0
+2 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b1
+2
+3 0
+2 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b3
+2
+7 0
+2 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b4
+2
+9 0
+2 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b4 b5
+2
+1 0
+2 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b1
+2
+3 0
+2 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b3
+2
+7 0
+2 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b4
+2
+9 0
+2 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b2 b5 b5
+2
+1 0
+2 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b1
+2
+3 0
+6 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b2
+2
+0 0
+6 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b4
+2
+9 0
+6 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b1 b5
+2
+1 0
+6 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b1
+2
+3 0
+6 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b2
+2
+0 0
+6 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b4
+2
+9 0
+6 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b2 b5
+2
+1 0
+6 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b1
+2
+3 0
+6 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b2
+2
+0 0
+6 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b4
+2
+9 0
+6 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b4 b5
+2
+1 0
+6 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b1
+2
+3 0
+6 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b2
+2
+0 0
+6 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b4
+2
+9 0
+6 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b3 b5 b5
+2
+1 0
+6 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b1
+2
+3 0
+8 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b2
+2
+0 0
+8 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b3
+2
+7 0
+8 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b1 b5
+2
+1 0
+8 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b1
+2
+3 0
+8 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b2
+2
+0 0
+8 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b3
+2
+7 0
+8 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b2 b5
+2
+1 0
+8 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b1
+2
+3 0
+8 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b2
+2
+0 0
+8 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b3
+2
+7 0
+8 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b3 b5
+2
+1 0
+8 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b1
+2
+3 0
+8 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b2
+2
+0 0
+8 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b3
+2
+7 0
+8 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b4 b5 b5
+2
+1 0
+8 5
+2
+0 10 -1 0
+0 5 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b1
+2
+3 0
+5 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b2
+2
+0 0
+5 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b3
+2
+7 0
+5 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b1 b4
+2
+9 0
+5 1
+2
+0 10 -1 0
+0 4 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b1
+2
+3 0
+5 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b2
+2
+0 0
+5 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b3
+2
+7 0
+5 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b2 b4
+2
+9 0
+5 2
+2
+0 10 -1 0
+0 2 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b1
+2
+3 0
+5 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b2
+2
+0 0
+5 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b3
+2
+7 0
+5 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b3 b4
+2
+9 0
+5 3
+2
+0 10 -1 0
+0 6 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b1
+2
+3 0
+5 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b2
+2
+0 0
+5 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b3
+2
+7 0
+5 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+begin_operator
+put-tower-on-block_DETDUP_1 b5 b4 b4
+2
+9 0
+5 4
+2
+0 10 -1 0
+0 8 0 6
+0
+end_operator
+0
+begin_SG
+switch 3
+check 0
+switch 10
+check 0
+switch 4
+check 0
+check 0
+switch 2
+check 3
+0
+110
+135
+check 0
+check 1
+21
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+42
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 1
+63
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+84
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 2
+111
+136
+check 0
+check 2
+1
+22
+check 1
+2
+check 1
+3
+check 1
+4
+check 1
+5
+check 0
+switch 6
+check 0
+check 0
+check 1
+43
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 1
+64
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+85
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 2
+112
+137
+check 0
+check 1
+23
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 2
+6
+44
+check 1
+7
+check 1
+8
+check 1
+9
+check 1
+10
+check 0
+switch 8
+check 0
+check 0
+check 1
+65
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+86
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 2
+113
+138
+check 0
+check 1
+24
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+45
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 2
+11
+66
+check 1
+12
+check 1
+13
+check 1
+14
+check 1
+15
+check 0
+switch 5
+check 0
+check 0
+check 1
+87
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 2
+114
+139
+check 0
+check 1
+25
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+46
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 1
+67
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 2
+16
+88
+check 1
+17
+check 1
+18
+check 1
+19
+check 1
+20
+check 0
+check 0
+check 1
+105
+switch 2
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 0
+check 1
+47
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 1
+68
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 1
+89
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 1
+26
+check 0
+check 0
+check 1
+48
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 1
+69
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 1
+90
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+27
+check 2
+28
+49
+check 1
+29
+check 1
+30
+check 1
+31
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 1
+70
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 1
+91
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 0
+check 1
+50
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 1
+32
+check 2
+33
+71
+check 1
+34
+check 1
+35
+check 1
+36
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 1
+92
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 0
+check 1
+51
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 1
+72
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+37
+check 2
+38
+93
+check 1
+39
+check 1
+40
+check 1
+41
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 0
+check 1
+73
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 1
+94
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 0
+check 1
+74
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 1
+95
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 1
+52
+check 0
+check 0
+check 0
+check 1
+75
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 1
+96
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 1
+53
+check 1
+54
+check 2
+55
+76
+check 1
+56
+check 1
+57
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 1
+97
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 0
+check 1
+77
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+58
+check 1
+59
+check 2
+60
+98
+check 1
+61
+check 1
+62
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+99
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+100
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+101
+check 0
+check 0
+check 0
+switch 5
+check 1
+78
+check 0
+check 0
+check 0
+check 0
+check 1
+102
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+79
+check 1
+80
+check 1
+81
+check 2
+82
+103
+check 1
+83
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 1
+104
+check 0
+check 0
+check 0
+switch 4
+check 0
+switch 2
+check 0
+check 2
+170
+295
+check 2
+451
+531
+check 2
+190
+315
+check 2
+210
+335
+check 2
+230
+355
+check 2
+250
+375
+check 2
+270
+395
+switch 6
+check 0
+check 0
+check 2
+467
+547
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 2
+483
+563
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 2
+499
+579
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 2
+165
+290
+check 2
+175
+300
+check 0
+check 2
+471
+551
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+180
+305
+check 0
+check 2
+487
+567
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+185
+310
+check 0
+check 2
+503
+583
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+195
+320
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+200
+325
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+205
+330
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 4
+215
+340
+455
+535
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+220
+345
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+225
+350
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+235
+360
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 4
+240
+365
+459
+539
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+245
+370
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+255
+380
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+260
+385
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 4
+265
+390
+463
+543
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+275
+400
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+280
+405
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+285
+410
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 0
+check 2
+491
+571
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 2
+507
+587
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+475
+555
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+479
+559
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 0
+check 2
+511
+591
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+495
+575
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 0
+check 0
+switch 10
+check 0
+switch 2
+check 0
+check 0
+check 2
+115
+140
+check 2
+116
+141
+check 2
+117
+142
+check 2
+118
+143
+check 2
+119
+144
+check 1
+106
+check 0
+check 0
+switch 4
+check 0
+switch 2
+check 0
+check 2
+171
+296
+check 0
+check 2
+191
+316
+check 2
+211
+336
+check 2
+231
+356
+check 2
+251
+376
+check 2
+271
+396
+switch 6
+check 0
+check 0
+check 2
+468
+548
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 2
+484
+564
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 2
+500
+580
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 2
+435
+515
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+439
+519
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+443
+523
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+447
+527
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 2
+166
+291
+check 2
+176
+301
+check 0
+check 2
+472
+552
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+181
+306
+check 0
+check 2
+488
+568
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+186
+311
+check 0
+check 2
+504
+584
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+196
+321
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+201
+326
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+206
+331
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+216
+341
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+221
+346
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+226
+351
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+236
+361
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+241
+366
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+246
+371
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+256
+381
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+261
+386
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+266
+391
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+276
+401
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+281
+406
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+286
+411
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 0
+check 2
+492
+572
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 2
+508
+588
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+476
+556
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+480
+560
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 0
+check 2
+512
+592
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+496
+576
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 7
+check 0
+switch 10
+check 0
+switch 6
+check 0
+check 0
+check 2
+120
+145
+check 2
+121
+146
+check 2
+122
+147
+check 2
+123
+148
+check 2
+124
+149
+check 1
+107
+check 0
+check 0
+switch 4
+check 0
+switch 2
+check 0
+check 2
+172
+297
+check 2
+452
+532
+check 2
+192
+317
+check 2
+212
+337
+check 2
+232
+357
+check 2
+252
+377
+check 2
+272
+397
+switch 8
+check 0
+check 0
+check 2
+485
+565
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 2
+501
+581
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 2
+436
+516
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+440
+520
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+444
+524
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+448
+528
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 2
+167
+292
+check 2
+177
+302
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+182
+307
+check 0
+check 2
+489
+569
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+187
+312
+check 0
+check 2
+505
+585
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+197
+322
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+202
+327
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+207
+332
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 4
+217
+342
+456
+536
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+222
+347
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+227
+352
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+237
+362
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 4
+242
+367
+460
+540
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+247
+372
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+257
+382
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+262
+387
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 4
+267
+392
+464
+544
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+277
+402
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+282
+407
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+287
+412
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 0
+check 2
+493
+573
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 2
+509
+589
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 0
+check 2
+513
+593
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+497
+577
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 9
+check 0
+switch 10
+check 0
+switch 8
+check 0
+check 0
+check 2
+125
+150
+check 2
+126
+151
+check 2
+127
+152
+check 2
+128
+153
+check 2
+129
+154
+check 1
+108
+check 0
+check 0
+switch 4
+check 0
+switch 2
+check 0
+check 2
+173
+298
+check 2
+453
+533
+check 2
+193
+318
+check 2
+213
+338
+check 2
+233
+358
+check 2
+253
+378
+check 2
+273
+398
+switch 6
+check 0
+check 0
+check 2
+469
+549
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 2
+502
+582
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 2
+437
+517
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+441
+521
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+445
+525
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+449
+529
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 2
+168
+293
+check 2
+178
+303
+check 0
+check 2
+473
+553
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+183
+308
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+188
+313
+check 0
+check 2
+506
+586
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+198
+323
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+203
+328
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+208
+333
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 4
+218
+343
+457
+537
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+223
+348
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+228
+353
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+238
+363
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 4
+243
+368
+461
+541
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+248
+373
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+258
+383
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+263
+388
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 4
+268
+393
+465
+545
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+278
+403
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+283
+408
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+288
+413
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 2
+510
+590
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+477
+557
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+481
+561
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 0
+check 2
+514
+594
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 1
+check 0
+switch 10
+check 0
+switch 5
+check 0
+check 0
+check 2
+130
+155
+check 2
+131
+156
+check 2
+132
+157
+check 2
+133
+158
+check 2
+134
+159
+check 1
+109
+check 0
+check 0
+switch 4
+check 0
+switch 2
+check 0
+check 2
+174
+299
+check 2
+454
+534
+check 2
+194
+319
+check 2
+214
+339
+check 2
+234
+359
+check 2
+254
+379
+check 2
+274
+399
+switch 6
+check 0
+check 0
+check 2
+470
+550
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 2
+486
+566
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 2
+438
+518
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+442
+522
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+446
+526
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+450
+530
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 2
+169
+294
+check 2
+179
+304
+check 0
+check 2
+474
+554
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+184
+309
+check 0
+check 2
+490
+570
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+189
+314
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+199
+324
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+204
+329
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+209
+334
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 4
+219
+344
+458
+538
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+224
+349
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+229
+354
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+239
+364
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 4
+244
+369
+462
+542
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+249
+374
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+259
+384
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+264
+389
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 4
+269
+394
+466
+546
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 2
+279
+404
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+284
+409
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+289
+414
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 0
+check 2
+494
+574
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 2
+478
+558
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+482
+562
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 2
+498
+578
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 4
+check 0
+switch 2
+check 1
+160
+check 0
+check 1
+419
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 0
+check 1
+423
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 1
+427
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 1
+431
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+check 1
+415
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 1
+416
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 1
+417
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 1
+418
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 1
+161
+check 0
+check 0
+check 1
+424
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+check 1
+428
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 1
+432
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+check 1
+420
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 1
+421
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 1
+422
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 6
+check 0
+switch 8
+check 1
+162
+check 0
+check 0
+check 0
+check 1
+429
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 0
+check 0
+check 0
+check 1
+433
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 1
+425
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 1
+426
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+switch 5
+check 1
+163
+check 0
+check 0
+check 0
+check 0
+check 1
+434
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 1
+430
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 5
+check 0
+check 1
+164
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+check 0
+end_SG
+begin_DTG
+44
+1
+472
+2
+2 0
+6 2
+1
+266
+2
+2 5
+5 0
+1
+271
+2
+4 0
+2 6
+1
+276
+2
+2 6
+6 0
+1
+281
+2
+2 6
+8 0
+1
+286
+2
+2 6
+5 0
+1
+435
+2
+4 2
+2 0
+1
+439
+2
+4 3
+6 0
+1
+443
+2
+4 4
+8 0
+1
+447
+2
+4 5
+5 0
+1
+468
+2
+4 0
+6 1
+1
+261
+2
+2 5
+8 0
+1
+476
+2
+6 4
+8 0
+1
+480
+2
+6 5
+5 0
+1
+484
+2
+4 0
+8 1
+1
+488
+2
+2 0
+8 2
+1
+492
+2
+6 0
+8 3
+1
+496
+2
+8 5
+5 0
+1
+500
+2
+4 0
+5 1
+1
+504
+2
+2 0
+5 2
+1
+508
+2
+6 0
+5 3
+1
+512
+2
+8 0
+5 4
+1
+206
+2
+2 2
+5 0
+1
+117
+2
+10 0
+2 3
+1
+118
+2
+10 0
+2 4
+1
+119
+2
+10 0
+2 5
+1
+171
+2
+4 0
+2 0
+1
+176
+2
+2 0
+6 0
+1
+181
+2
+2 0
+8 0
+1
+186
+2
+2 0
+5 0
+1
+191
+2
+4 0
+2 2
+1
+196
+2
+2 2
+6 0
+1
+201
+2
+2 2
+8 0
+1
+115
+2
+10 0
+2 1
+1
+211
+2
+4 0
+2 3
+1
+216
+2
+2 3
+6 0
+1
+221
+2
+2 3
+8 0
+1
+226
+2
+2 3
+5 0
+1
+231
+2
+4 0
+2 4
+1
+236
+2
+2 4
+6 0
+1
+241
+2
+2 4
+8 0
+1
+246
+2
+2 4
+5 0
+1
+251
+2
+4 0
+2 5
+1
+256
+2
+2 5
+6 0
+18
+0
+161
+1
+2 0
+0
+26
+3
+3 0
+10 0
+2 2
+0
+156
+3
+1 0
+10 0
+5 2
+0
+151
+3
+9 0
+10 0
+8 2
+0
+146
+3
+7 0
+10 0
+6 2
+0
+136
+3
+3 0
+10 0
+4 2
+0
+95
+4
+3 0
+10 0
+6 2
+5 3
+0
+100
+4
+3 0
+10 0
+8 2
+5 4
+0
+7
+4
+3 0
+10 0
+4 3
+6 2
+0
+12
+4
+3 0
+10 0
+4 4
+8 2
+0
+17
+4
+3 0
+10 0
+4 5
+5 2
+0
+28
+4
+3 0
+10 0
+2 3
+6 2
+0
+33
+4
+3 0
+10 0
+2 4
+8 2
+0
+38
+4
+3 0
+10 0
+2 5
+5 2
+0
+54
+4
+3 0
+10 0
+6 4
+8 2
+0
+59
+4
+3 0
+10 0
+6 5
+5 2
+0
+74
+4
+3 0
+10 0
+6 2
+8 3
+0
+80
+4
+3 0
+10 0
+8 5
+5 2
+end_DTG
+begin_DTG
+31
+1
+169
+1
+2 0
+1
+466
+2
+2 5
+5 0
+1
+279
+2
+2 6
+6 0
+1
+284
+2
+2 6
+8 0
+1
+442
+2
+4 3
+6 0
+1
+446
+2
+4 4
+8 0
+1
+450
+2
+4 5
+5 0
+1
+454
+2
+4 0
+2 1
+1
+458
+2
+2 3
+6 0
+1
+462
+2
+2 4
+8 0
+1
+264
+2
+2 5
+8 0
+1
+470
+2
+4 0
+6 1
+1
+478
+2
+6 4
+8 0
+1
+482
+2
+6 5
+5 0
+1
+486
+2
+4 0
+8 1
+1
+494
+2
+6 0
+8 3
+1
+498
+2
+8 5
+5 0
+1
+214
+2
+4 0
+2 3
+1
+131
+2
+10 0
+5 2
+1
+132
+2
+10 0
+5 3
+1
+133
+2
+10 0
+5 4
+1
+194
+2
+4 0
+2 2
+1
+199
+2
+2 2
+6 0
+1
+204
+2
+2 2
+8 0
+1
+274
+2
+4 0
+2 6
+1
+224
+2
+2 3
+8 0
+1
+234
+2
+4 0
+2 4
+1
+239
+2
+2 4
+6 0
+1
+254
+2
+4 0
+2 5
+1
+259
+2
+2 5
+6 0
+1
+130
+2
+10 0
+5 1
+18
+0
+164
+1
+5 0
+0
+104
+3
+3 0
+10 0
+5 5
+0
+114
+3
+3 0
+10 0
+4 5
+0
+119
+3
+0 0
+10 0
+2 5
+0
+124
+3
+7 0
+10 0
+6 5
+0
+129
+3
+9 0
+10 0
+8 5
+0
+51
+4
+3 0
+10 0
+2 5
+6 2
+0
+36
+4
+3 0
+10 0
+2 4
+8 5
+0
+31
+4
+3 0
+10 0
+2 3
+6 5
+0
+15
+4
+3 0
+10 0
+4 4
+8 5
+0
+5
+4
+3 0
+10 0
+4 2
+2 5
+0
+10
+4
+3 0
+10 0
+4 3
+6 5
+0
+57
+4
+3 0
+10 0
+6 4
+8 5
+0
+72
+4
+3 0
+10 0
+2 5
+8 2
+0
+77
+4
+3 0
+10 0
+6 5
+8 3
+0
+93
+4
+3 0
+10 0
+2 5
+5 2
+0
+98
+4
+3 0
+10 0
+6 5
+5 3
+0
+103
+4
+3 0
+10 0
+8 5
+5 4
+end_DTG
+begin_DTG
+6
+1
+165
+1
+3 0
+2
+166
+1
+0 0
+3
+167
+1
+7 0
+4
+168
+1
+9 0
+5
+169
+1
+1 0
+6
+161
+0
+6
+0
+115
+2
+0 0
+10 0
+0
+1
+3
+3 0
+10 0
+4 2
+0
+47
+3
+3 0
+10 0
+6 2
+0
+68
+3
+3 0
+10 0
+8 2
+0
+89
+3
+3 0
+10 0
+5 2
+6
+140
+2
+0 0
+10 0
+3
+0
+26
+2
+3 0
+10 0
+0
+116
+2
+0 0
+10 0
+6
+141
+2
+0 0
+10 0
+6
+0
+117
+2
+0 0
+10 0
+0
+3
+3
+3 0
+10 0
+4 2
+0
+49
+3
+3 0
+10 0
+6 2
+0
+70
+3
+3 0
+10 0
+8 2
+0
+91
+3
+3 0
+10 0
+5 2
+6
+142
+2
+0 0
+10 0
+6
+0
+118
+2
+0 0
+10 0
+0
+4
+3
+3 0
+10 0
+4 2
+0
+50
+3
+3 0
+10 0
+6 2
+0
+71
+3
+3 0
+10 0
+8 2
+0
+92
+3
+3 0
+10 0
+5 2
+6
+143
+2
+0 0
+10 0
+6
+0
+119
+2
+0 0
+10 0
+0
+5
+3
+3 0
+10 0
+4 2
+0
+51
+3
+3 0
+10 0
+6 2
+0
+72
+3
+3 0
+10 0
+8 2
+0
+93
+3
+3 0
+10 0
+5 2
+6
+144
+2
+0 0
+10 0
+1
+0
+106
+2
+0 0
+10 0
+end_DTG
+begin_DTG
+30
+1
+165
+1
+2 0
+1
+479
+2
+6 5
+5 0
+1
+280
+2
+2 6
+8 0
+1
+285
+2
+2 6
+5 0
+1
+451
+2
+4 0
+2 1
+1
+455
+2
+2 3
+6 0
+1
+459
+2
+2 4
+8 0
+1
+463
+2
+2 5
+5 0
+1
+467
+2
+4 0
+6 1
+1
+475
+2
+6 4
+8 0
+1
+483
+2
+4 0
+8 1
+1
+491
+2
+6 0
+8 3
+1
+495
+2
+8 5
+5 0
+1
+499
+2
+4 0
+5 1
+1
+507
+2
+6 0
+5 3
+1
+511
+2
+8 0
+5 4
+1
+112
+2
+10 0
+4 3
+1
+113
+2
+10 0
+4 4
+1
+114
+2
+10 0
+4 5
+1
+195
+2
+2 2
+6 0
+1
+200
+2
+2 2
+8 0
+1
+205
+2
+2 2
+5 0
+1
+275
+2
+2 6
+6 0
+1
+220
+2
+2 3
+8 0
+1
+225
+2
+2 3
+5 0
+1
+235
+2
+2 4
+6 0
+1
+245
+2
+2 4
+5 0
+1
+255
+2
+2 5
+6 0
+1
+260
+2
+2 5
+8 0
+1
+111
+2
+10 0
+4 2
+5
+0
+160
+1
+4 0
+0
+120
+3
+7 0
+10 0
+6 1
+0
+125
+3
+9 0
+10 0
+8 1
+0
+130
+3
+1 0
+10 0
+5 1
+0
+140
+3
+0 0
+10 0
+2 1
+end_DTG
+begin_DTG
+47
+1
+170
+2
+3 0
+2 0
+1
+250
+2
+3 0
+2 5
+1
+270
+2
+3 0
+2 6
+1
+230
+2
+3 0
+2 4
+1
+499
+2
+3 0
+5 1
+1
+210
+2
+3 0
+2 3
+1
+483
+2
+3 0
+8 1
+1
+190
+2
+3 0
+2 2
+1
+467
+2
+3 0
+6 1
+1
+451
+2
+3 0
+2 1
+2
+191
+2
+0 0
+2 2
+2
+484
+2
+0 0
+8 1
+2
+468
+2
+0 0
+6 1
+2
+211
+2
+0 0
+2 3
+2
+500
+2
+0 0
+5 1
+2
+231
+2
+0 0
+2 4
+2
+271
+2
+0 0
+2 6
+2
+171
+2
+0 0
+2 0
+2
+251
+2
+0 0
+2 5
+3
+485
+2
+7 0
+8 1
+3
+501
+2
+7 0
+5 1
+3
+272
+2
+7 0
+2 6
+3
+452
+2
+7 0
+2 1
+3
+212
+2
+7 0
+2 3
+3
+192
+2
+7 0
+2 2
+3
+232
+2
+7 0
+2 4
+3
+172
+2
+7 0
+2 0
+3
+252
+2
+7 0
+2 5
+4
+173
+2
+9 0
+2 0
+4
+469
+2
+9 0
+6 1
+4
+453
+2
+9 0
+2 1
+4
+193
+2
+9 0
+2 2
+4
+502
+2
+9 0
+5 1
+4
+273
+2
+9 0
+2 6
+4
+233
+2
+9 0
+2 4
+4
+213
+2
+9 0
+2 3
+4
+253
+2
+9 0
+2 5
+5
+214
+2
+1 0
+2 3
+5
+194
+2
+1 0
+2 2
+5
+470
+2
+1 0
+6 1
+5
+486
+2
+1 0
+8 1
+5
+174
+2
+1 0
+2 0
+5
+454
+2
+1 0
+2 1
+5
+274
+2
+1 0
+2 6
+5
+234
+2
+1 0
+2 4
+5
+254
+2
+1 0
+2 5
+6
+160
+0
+2
+0
+0
+2
+3 0
+10 0
+6
+135
+2
+3 0
+10 0
+2
+0
+111
+2
+3 0
+10 0
+6
+136
+2
+3 0
+10 0
+2
+0
+112
+2
+3 0
+10 0
+6
+137
+2
+3 0
+10 0
+2
+0
+113
+2
+3 0
+10 0
+6
+138
+2
+3 0
+10 0
+2
+0
+114
+2
+3 0
+10 0
+6
+139
+2
+3 0
+10 0
+1
+0
+105
+2
+3 0
+10 0
+end_DTG
+begin_DTG
+43
+1
+185
+2
+3 0
+2 0
+1
+265
+2
+3 0
+2 5
+1
+285
+2
+3 0
+2 6
+1
+245
+2
+3 0
+2 4
+1
+225
+2
+3 0
+2 3
+1
+495
+2
+3 0
+8 5
+1
+479
+2
+3 0
+6 5
+1
+205
+2
+3 0
+2 2
+2
+206
+2
+0 0
+2 2
+2
+480
+2
+0 0
+6 5
+2
+226
+2
+0 0
+2 3
+2
+496
+2
+0 0
+8 5
+2
+447
+2
+0 0
+4 5
+2
+246
+2
+0 0
+2 4
+2
+286
+2
+0 0
+2 6
+2
+186
+2
+0 0
+2 0
+2
+266
+2
+0 0
+2 5
+3
+464
+2
+7 0
+2 5
+3
+497
+2
+7 0
+8 5
+3
+287
+2
+7 0
+2 6
+3
+448
+2
+7 0
+4 5
+3
+247
+2
+7 0
+2 4
+3
+227
+2
+7 0
+2 3
+3
+207
+2
+7 0
+2 2
+3
+187
+2
+7 0
+2 0
+4
+481
+2
+9 0
+6 5
+4
+188
+2
+9 0
+2 0
+4
+449
+2
+9 0
+4 5
+4
+465
+2
+9 0
+2 5
+4
+208
+2
+9 0
+2 2
+4
+228
+2
+9 0
+2 3
+4
+288
+2
+9 0
+2 6
+4
+248
+2
+9 0
+2 4
+5
+482
+2
+1 0
+6 5
+5
+498
+2
+1 0
+8 5
+5
+466
+2
+1 0
+2 5
+5
+209
+2
+1 0
+2 2
+5
+189
+2
+1 0
+2 0
+5
+450
+2
+1 0
+4 5
+5
+249
+2
+1 0
+2 4
+5
+289
+2
+1 0
+2 6
+5
+229
+2
+1 0
+2 3
+6
+164
+0
+6
+0
+130
+2
+1 0
+10 0
+0
+16
+3
+3 0
+10 0
+4 5
+0
+37
+3
+3 0
+10 0
+2 5
+0
+58
+3
+3 0
+10 0
+6 5
+0
+79
+3
+3 0
+10 0
+8 5
+6
+155
+2
+1 0
+10 0
+6
+0
+131
+2
+1 0
+10 0
+0
+17
+3
+3 0
+10 0
+4 5
+0
+38
+3
+3 0
+10 0
+2 5
+0
+59
+3
+3 0
+10 0
+6 5
+0
+80
+3
+3 0
+10 0
+8 5
+6
+156
+2
+1 0
+10 0
+6
+0
+132
+2
+1 0
+10 0
+0
+18
+3
+3 0
+10 0
+4 5
+0
+39
+3
+3 0
+10 0
+2 5
+0
+60
+3
+3 0
+10 0
+6 5
+0
+81
+3
+3 0
+10 0
+8 5
+6
+157
+2
+1 0
+10 0
+6
+0
+133
+2
+1 0
+10 0
+0
+19
+3
+3 0
+10 0
+4 5
+0
+40
+3
+3 0
+10 0
+2 5
+0
+61
+3
+3 0
+10 0
+6 5
+0
+82
+3
+3 0
+10 0
+8 5
+6
+158
+2
+1 0
+10 0
+3
+0
+104
+2
+3 0
+10 0
+0
+134
+2
+1 0
+10 0
+6
+159
+2
+1 0
+10 0
+1
+0
+109
+2
+1 0
+10 0
+end_DTG
+begin_DTG
+43
+1
+175
+2
+3 0
+2 0
+1
+255
+2
+3 0
+2 5
+1
+275
+2
+3 0
+2 6
+1
+235
+2
+3 0
+2 4
+1
+507
+2
+3 0
+5 3
+1
+215
+2
+3 0
+2 3
+1
+491
+2
+3 0
+8 3
+1
+195
+2
+3 0
+2 2
+2
+196
+2
+0 0
+2 2
+2
+492
+2
+0 0
+8 3
+2
+216
+2
+0 0
+2 3
+2
+508
+2
+0 0
+5 3
+2
+439
+2
+0 0
+4 3
+2
+236
+2
+0 0
+2 4
+2
+276
+2
+0 0
+2 6
+2
+176
+2
+0 0
+2 0
+2
+256
+2
+0 0
+2 5
+3
+493
+2
+7 0
+8 3
+3
+456
+2
+7 0
+2 3
+3
+509
+2
+7 0
+5 3
+3
+277
+2
+7 0
+2 6
+3
+440
+2
+7 0
+4 3
+3
+197
+2
+7 0
+2 2
+3
+237
+2
+7 0
+2 4
+3
+177
+2
+7 0
+2 0
+3
+257
+2
+7 0
+2 5
+4
+178
+2
+9 0
+2 0
+4
+457
+2
+9 0
+2 3
+4
+441
+2
+9 0
+4 3
+4
+198
+2
+9 0
+2 2
+4
+510
+2
+9 0
+5 3
+4
+278
+2
+9 0
+2 6
+4
+238
+2
+9 0
+2 4
+4
+258
+2
+9 0
+2 5
+5
+219
+2
+1 0
+2 3
+5
+199
+2
+1 0
+2 2
+5
+494
+2
+1 0
+8 3
+5
+179
+2
+1 0
+2 0
+5
+442
+2
+1 0
+4 3
+5
+279
+2
+1 0
+2 6
+5
+239
+2
+1 0
+2 4
+5
+259
+2
+1 0
+2 5
+6
+162
+0
+6
+0
+120
+2
+7 0
+10 0
+0
+6
+3
+3 0
+10 0
+4 3
+0
+27
+3
+3 0
+10 0
+2 3
+0
+73
+3
+3 0
+10 0
+8 3
+0
+94
+3
+3 0
+10 0
+5 3
+6
+145
+2
+7 0
+10 0
+6
+0
+121
+2
+7 0
+10 0
+0
+7
+3
+3 0
+10 0
+4 3
+0
+28
+3
+3 0
+10 0
+2 3
+0
+74
+3
+3 0
+10 0
+8 3
+0
+95
+3
+3 0
+10 0
+5 3
+6
+146
+2
+7 0
+10 0
+3
+0
+52
+2
+3 0
+10 0
+0
+122
+2
+7 0
+10 0
+6
+147
+2
+7 0
+10 0
+6
+0
+123
+2
+7 0
+10 0
+0
+9
+3
+3 0
+10 0
+4 3
+0
+30
+3
+3 0
+10 0
+2 3
+0
+76
+3
+3 0
+10 0
+8 3
+0
+97
+3
+3 0
+10 0
+5 3
+6
+148
+2
+7 0
+10 0
+6
+0
+124
+2
+7 0
+10 0
+0
+10
+3
+3 0
+10 0
+4 3
+0
+31
+3
+3 0
+10 0
+2 3
+0
+77
+3
+3 0
+10 0
+8 3
+0
+98
+3
+3 0
+10 0
+5 3
+6
+149
+2
+7 0
+10 0
+1
+0
+107
+2
+7 0
+10 0
+end_DTG
+begin_DTG
+31
+1
+167
+1
+2 0
+1
+464
+2
+2 5
+5 0
+1
+282
+2
+2 6
+8 0
+1
+287
+2
+2 6
+5 0
+1
+440
+2
+4 3
+6 0
+1
+444
+2
+4 4
+8 0
+1
+448
+2
+4 5
+5 0
+1
+452
+2
+4 0
+2 1
+1
+456
+2
+2 3
+6 0
+1
+460
+2
+2 4
+8 0
+1
+485
+2
+4 0
+8 1
+1
+493
+2
+6 0
+8 3
+1
+497
+2
+8 5
+5 0
+1
+501
+2
+4 0
+5 1
+1
+509
+2
+6 0
+5 3
+1
+513
+2
+8 0
+5 4
+1
+212
+2
+4 0
+2 3
+1
+121
+2
+10 0
+6 2
+1
+123
+2
+10 0
+6 4
+1
+124
+2
+10 0
+6 5
+1
+192
+2
+4 0
+2 2
+1
+202
+2
+2 2
+8 0
+1
+207
+2
+2 2
+5 0
+1
+272
+2
+4 0
+2 6
+1
+222
+2
+2 3
+8 0
+1
+227
+2
+2 3
+5 0
+1
+232
+2
+4 0
+2 4
+1
+247
+2
+2 4
+5 0
+1
+252
+2
+4 0
+2 5
+1
+262
+2
+2 5
+8 0
+1
+120
+2
+10 0
+6 1
+18
+0
+162
+1
+6 0
+0
+132
+3
+1 0
+10 0
+5 3
+0
+52
+3
+3 0
+10 0
+6 3
+0
+112
+3
+3 0
+10 0
+4 3
+0
+117
+3
+0 0
+10 0
+2 3
+0
+127
+3
+9 0
+10 0
+8 3
+0
+3
+4
+3 0
+10 0
+4 2
+2 3
+0
+13
+4
+3 0
+10 0
+4 4
+8 3
+0
+18
+4
+3 0
+10 0
+4 5
+5 3
+0
+34
+4
+3 0
+10 0
+2 4
+8 3
+0
+39
+4
+3 0
+10 0
+2 5
+5 3
+0
+49
+4
+3 0
+10 0
+2 3
+6 2
+0
+55
+4
+3 0
+10 0
+6 4
+8 3
+0
+60
+4
+3 0
+10 0
+6 5
+5 3
+0
+70
+4
+3 0
+10 0
+2 3
+8 2
+0
+81
+4
+3 0
+10 0
+8 5
+5 3
+0
+91
+4
+3 0
+10 0
+2 3
+5 2
+0
+101
+4
+3 0
+10 0
+8 3
+5 4
+end_DTG
+begin_DTG
+43
+1
+180
+2
+3 0
+2 0
+1
+260
+2
+3 0
+2 5
+1
+280
+2
+3 0
+2 6
+1
+240
+2
+3 0
+2 4
+1
+220
+2
+3 0
+2 3
+1
+511
+2
+3 0
+5 4
+1
+475
+2
+3 0
+6 4
+1
+200
+2
+3 0
+2 2
+2
+201
+2
+0 0
+2 2
+2
+476
+2
+0 0
+6 4
+2
+221
+2
+0 0
+2 3
+2
+512
+2
+0 0
+5 4
+2
+443
+2
+0 0
+4 4
+2
+241
+2
+0 0
+2 4
+2
+281
+2
+0 0
+2 6
+2
+181
+2
+0 0
+2 0
+2
+261
+2
+0 0
+2 5
+3
+460
+2
+7 0
+2 4
+3
+513
+2
+7 0
+5 4
+3
+282
+2
+7 0
+2 6
+3
+262
+2
+7 0
+2 5
+3
+444
+2
+7 0
+4 4
+3
+222
+2
+7 0
+2 3
+3
+202
+2
+7 0
+2 2
+3
+182
+2
+7 0
+2 0
+4
+477
+2
+9 0
+6 4
+4
+183
+2
+9 0
+2 0
+4
+445
+2
+9 0
+4 4
+4
+461
+2
+9 0
+2 4
+4
+203
+2
+9 0
+2 2
+4
+514
+2
+9 0
+5 4
+4
+223
+2
+9 0
+2 3
+4
+283
+2
+9 0
+2 6
+4
+263
+2
+9 0
+2 5
+5
+478
+2
+1 0
+6 4
+5
+462
+2
+1 0
+2 4
+5
+204
+2
+1 0
+2 2
+5
+184
+2
+1 0
+2 0
+5
+446
+2
+1 0
+4 4
+5
+284
+2
+1 0
+2 6
+5
+224
+2
+1 0
+2 3
+5
+264
+2
+1 0
+2 5
+6
+163
+0
+6
+0
+125
+2
+9 0
+10 0
+0
+11
+3
+3 0
+10 0
+4 4
+0
+32
+3
+3 0
+10 0
+2 4
+0
+53
+3
+3 0
+10 0
+6 4
+0
+99
+3
+3 0
+10 0
+5 4
+6
+150
+2
+9 0
+10 0
+6
+0
+126
+2
+9 0
+10 0
+0
+12
+3
+3 0
+10 0
+4 4
+0
+33
+3
+3 0
+10 0
+2 4
+0
+54
+3
+3 0
+10 0
+6 4
+0
+100
+3
+3 0
+10 0
+5 4
+6
+151
+2
+9 0
+10 0
+6
+0
+127
+2
+9 0
+10 0
+0
+13
+3
+3 0
+10 0
+4 4
+0
+34
+3
+3 0
+10 0
+2 4
+0
+55
+3
+3 0
+10 0
+6 4
+0
+101
+3
+3 0
+10 0
+5 4
+6
+152
+2
+9 0
+10 0
+3
+0
+78
+2
+3 0
+10 0
+0
+128
+2
+9 0
+10 0
+6
+153
+2
+9 0
+10 0
+6
+0
+129
+2
+9 0
+10 0
+0
+15
+3
+3 0
+10 0
+4 4
+0
+36
+3
+3 0
+10 0
+2 4
+0
+57
+3
+3 0
+10 0
+6 4
+0
+103
+3
+3 0
+10 0
+5 4
+6
+154
+2
+9 0
+10 0
+1
+0
+108
+2
+9 0
+10 0
+end_DTG
+begin_DTG
+31
+1
+168
+1
+2 0
+1
+465
+2
+2 5
+5 0
+1
+278
+2
+2 6
+6 0
+1
+288
+2
+2 6
+5 0
+1
+441
+2
+4 3
+6 0
+1
+445
+2
+4 4
+8 0
+1
+449
+2
+4 5
+5 0
+1
+453
+2
+4 0
+2 1
+1
+457
+2
+2 3
+6 0
+1
+461
+2
+2 4
+8 0
+1
+469
+2
+4 0
+6 1
+1
+477
+2
+6 4
+8 0
+1
+481
+2
+6 5
+5 0
+1
+502
+2
+4 0
+5 1
+1
+510
+2
+6 0
+5 3
+1
+514
+2
+8 0
+5 4
+1
+213
+2
+4 0
+2 3
+1
+126
+2
+10 0
+8 2
+1
+127
+2
+10 0
+8 3
+1
+129
+2
+10 0
+8 5
+1
+193
+2
+4 0
+2 2
+1
+198
+2
+2 2
+6 0
+1
+208
+2
+2 2
+5 0
+1
+273
+2
+4 0
+2 6
+1
+228
+2
+2 3
+5 0
+1
+233
+2
+4 0
+2 4
+1
+238
+2
+2 4
+6 0
+1
+248
+2
+2 4
+5 0
+1
+253
+2
+4 0
+2 5
+1
+258
+2
+2 5
+6 0
+1
+125
+2
+10 0
+8 1
+18
+0
+163
+1
+8 0
+0
+78
+3
+3 0
+10 0
+8 4
+0
+113
+3
+3 0
+10 0
+4 4
+0
+118
+3
+0 0
+10 0
+2 4
+0
+123
+3
+7 0
+10 0
+6 4
+0
+133
+3
+1 0
+10 0
+5 4
+0
+50
+4
+3 0
+10 0
+2 4
+6 2
+0
+40
+4
+3 0
+10 0
+2 5
+5 4
+0
+9
+4
+3 0
+10 0
+4 3
+6 4
+0
+30
+4
+3 0
+10 0
+2 3
+6 4
+0
+19
+4
+3 0
+10 0
+4 5
+5 4
+0
+4
+4
+3 0
+10 0
+4 2
+2 4
+0
+61
+4
+3 0
+10 0
+6 5
+5 4
+0
+71
+4
+3 0
+10 0
+2 4
+8 2
+0
+76
+4
+3 0
+10 0
+6 4
+8 3
+0
+82
+4
+3 0
+10 0
+8 5
+5 4
+0
+92
+4
+3 0
+10 0
+2 4
+5 2
+0
+97
+4
+3 0
+10 0
+6 4
+5 3
+end_DTG
+begin_DTG
+76
+1
+109
+2
+1 0
+5 6
+1
+116
+2
+0 0
+2 2
+1
+115
+2
+0 0
+2 1
+1
+114
+2
+3 0
+4 5
+1
+113
+2
+3 0
+4 4
+1
+112
+2
+3 0
+4 3
+1
+111
+2
+3 0
+4 2
+1
+110
+2
+3 0
+4 1
+1
+26
+2
+3 0
+2 2
+1
+134
+2
+1 0
+5 5
+1
+108
+2
+9 0
+8 6
+1
+107
+2
+7 0
+6 6
+1
+106
+2
+0 0
+2 6
+1
+105
+2
+3 0
+4 6
+1
+104
+2
+3 0
+5 5
+1
+78
+2
+3 0
+8 4
+1
+52
+2
+3 0
+6 3
+1
+118
+2
+0 0
+2 4
+1
+133
+2
+1 0
+5 4
+1
+132
+2
+1 0
+5 3
+1
+131
+2
+1 0
+5 2
+1
+130
+2
+1 0
+5 1
+1
+129
+2
+9 0
+8 5
+1
+128
+2
+9 0
+8 4
+1
+127
+2
+9 0
+8 3
+1
+126
+2
+9 0
+8 2
+1
+124
+2
+7 0
+6 5
+1
+123
+2
+7 0
+6 4
+1
+122
+2
+7 0
+6 3
+1
+121
+2
+7 0
+6 2
+1
+120
+2
+7 0
+6 1
+1
+125
+2
+9 0
+8 1
+1
+119
+2
+0 0
+2 5
+1
+117
+2
+0 0
+2 3
+1
+70
+3
+3 0
+2 3
+8 2
+1
+82
+3
+3 0
+8 5
+5 4
+1
+81
+3
+3 0
+8 5
+5 3
+1
+80
+3
+3 0
+8 5
+5 2
+1
+79
+3
+3 0
+8 5
+5 1
+1
+77
+3
+3 0
+6 5
+8 3
+1
+76
+3
+3 0
+6 4
+8 3
+1
+74
+3
+3 0
+6 2
+8 3
+1
+73
+3
+3 0
+6 1
+8 3
+1
+72
+3
+3 0
+2 5
+8 2
+1
+71
+3
+3 0
+2 4
+8 2
+1
+95
+3
+3 0
+6 2
+5 3
+1
+101
+3
+3 0
+8 3
+5 4
+1
+100
+3
+3 0
+8 2
+5 4
+1
+99
+3
+3 0
+8 1
+5 4
+1
+98
+3
+3 0
+6 5
+5 3
+1
+97
+3
+3 0
+6 4
+5 3
+1
+94
+3
+3 0
+6 1
+5 3
+1
+93
+3
+3 0
+2 5
+5 2
+1
+92
+3
+3 0
+2 4
+5 2
+1
+91
+3
+3 0
+2 3
+5 2
+1
+89
+3
+3 0
+2 1
+5 2
+1
+27
+3
+3 0
+2 3
+6 1
+1
+28
+3
+3 0
+2 3
+6 2
+1
+30
+3
+3 0
+2 3
+6 4
+1
+31
+3
+3 0
+2 3
+6 5
+1
+32
+3
+3 0
+2 4
+8 1
+1
+34
+3
+3 0
+2 4
+8 3
+1
+51
+3
+3 0
+2 5
+6 2
+1
+53
+3
+3 0
+6 4
+8 1
+1
+54
+3
+3 0
+6 4
+8 2
+1
+57
+3
+3 0
+6 4
+8 5
+1
+58
+3
+3 0
+6 5
+5 1
+1
+59
+3
+3 0
+6 5
+5 2
+1
+50
+3
+3 0
+2 4
+6 2
+1
+61
+3
+3 0
+6 5
+5 4
+1
+68
+3
+3 0
+2 1
+8 2
+1
+47
+3
+3 0
+2 1
+6 2
+1
+40
+3
+3 0
+2 5
+5 4
+1
+39
+3
+3 0
+2 5
+5 3
+1
+37
+3
+3 0
+2 5
+5 1
+1
+36
+3
+3 0
+2 4
+8 5
+5
+0
+161
+1
+2 0
+0
+162
+1
+6 0
+0
+163
+1
+8 0
+0
+164
+1
+5 0
+0
+160
+1
+4 0
+end_DTG
+begin_CG
+10
+3 14
+7 14
+9 14
+1 14
+10 88
+4 18
+2 21
+6 18
+8 18
+5 18
+10
+3 14
+0 4
+7 14
+9 14
+10 88
+4 18
+2 8
+6 18
+8 18
+5 31
+10
+3 76
+0 50
+7 84
+9 84
+1 84
+10 370
+4 74
+6 74
+8 74
+5 74
+10
+0 25
+7 35
+9 35
+1 35
+10 193
+4 52
+2 29
+6 39
+8 39
+5 39
+10
+3 57
+0 23
+7 23
+9 23
+1 23
+10 180
+2 14
+6 14
+8 14
+5 14
+10
+3 15
+0 23
+7 23
+9 23
+1 66
+10 180
+4 14
+2 14
+6 14
+8 14
+10
+3 15
+0 23
+7 66
+9 23
+1 23
+10 180
+4 14
+2 14
+8 14
+5 14
+10
+3 14
+0 4
+9 14
+1 14
+10 88
+4 18
+2 8
+6 31
+8 18
+5 18
+10
+3 15
+0 23
+7 23
+9 66
+1 23
+10 180
+4 14
+2 14
+6 14
+5 14
+10
+3 14
+0 4
+7 14
+1 14
+10 88
+4 18
+2 8
+6 18
+8 31
+5 18
+10
+3 12
+0 33
+7 33
+9 33
+1 33
+4 32
+2 32
+6 32
+8 32
+5 32
+end_CG

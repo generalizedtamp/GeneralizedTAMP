@@ -1,0 +1,106 @@
+# Experiment params
+- carry_0:
+    task_name: Carry
+    task_problem_folder: "./genqnp/task_planning_problems/tasks/carry/"
+    gen_tamp_folder: "./genqnp/tasks/carry/"
+    gen_tamp_results_folder: "./genqnp/tasks/carry/results/"
+    domain_file: "./genqnp/task_planning_problems/tasks/carry/domain.pddl"
+    generator: "./genqnp/task_planning_problems/generators/carry.py"
+    training_problems:
+      - carry_1_4
+      - carry_2_4
+      - carry_3_6
+    testing_seeds: 1
+    nf_complexity: 2
+    feature_complexity: 3
+    testing_problems:
+      - carry_2_2
+      - carry_2_4
+      - carry_2_6
+      - carry_2_8
+      - carry_2_10
+      - carry_2_12
+      - carry_2_14
+      - carry_2_16      
+
+  stack3d_0:
+    task_name: Stack3d
+    task_problem_folder: "./genqnp/task_planning_problems/tasks/stack/"
+    gen_tamp_folder: "./genqnp/tasks/stack3d"
+    gen_tamp_results_folder: "./genqnp/tasks/stack3d/results"
+    domain_file: "./genqnp/task_planning_problems/tasks/stack/domain.pddl"
+    generator: "./genqnp/task_planning_problems/generators/stack.py"
+    nf_complexity: 6
+    feature_complexity: 4
+    training_problems:
+      - Stack_2
+    testing_seeds: 1
+    testing_problems:
+      - Stack_2
+      - Stack_4
+      - Stack_6
+      - Stack_8
+      - Stack_10
+      - Stack_12
+      - Stack_14
+      - Stack_16
+  sort_0:
+    task_name: Sort
+    task_problem_folder: "./genqnp/task_planning_problems/tasks/sort/"
+    gen_tamp_folder: "./genqnp/tasks/sort"
+    gen_tamp_results_folder: "./genqnp/tasks/sort/results"
+    domain_file: "./genqnp/task_planning_problems/tasks/sort/domain.pddl"
+    generator: "./genqnp/task_planning_problems/generators/sort.py"
+    nf_complexity: 3
+    feature_complexity: 4
+    training_problems:
+      - sort_2_1_1
+      - sort_3_2_1
+      - sort_4_2_2
+      - sort_5_2_3
+      - sort_7_4_3
+    testing_seeds: 1
+    testing_problems:
+      - sort_2_1_1
+      - sort_4_2_2
+      - sort_6_3_3
+      - sort_8_4_4
+      - sort_10_5_5
+      - sort_12_6_6
+      - sort_14_7_7
+      - sort_16_8_8
+  clutter_0:
+    task_name: Clutter
+    task_problem_folder: "./genqnp/task_planning_problems/tasks/clutter/"
+    gen_tamp_folder: "./genqnp/tasks/clutter"
+    gen_tamp_results_folder: "./genqnp/tasks/clutter/results"
+    domain_file: "./genqnp/task_planning_problems/tasks/clutter/domain.pddl"
+    generator: "./genqnp/task_planning_problems/generators/clutter.py"
+    nf_complexity: 3
+    feature_complexity: 4
+    training_problems:
+      - Clutter_2
+      - Clutter_5
+      - Clutter_8
+    testing_seeds: 1
+    testing_problems:
+      - Clutter_2
+      - Clutter_4
+      - Clutter_6
+      - Clutter_8
+      - Clutter_10
+      - Clutter_12
+      - Clutter_14
+      - Clutter_16
+  walled_navigation_0:
+    task_name: WalledNavigation
+    task_problem_folder: "./genqnp/task_planning_problems/tasks/walled_navigation/"
+    gen_tamp_folder: "./genqnp/tasks/walled_navigation"
+    gen_tamp_results_folder: "./genqnp/tasks/walled_navigation/results"
+    domain_file: "./genqnp/task_planning_problems/tasks/walled_navigation/domain.pddl"
+    generator: "./genqnp/task_planning_problems/generators/walled_navigation.py"
+    training_problems:
+      - Walled_Navigation10_n4_g1
+    testing_seeds: 2
+    testing_problems:
+      - Walled_Navigation10_n4_g1

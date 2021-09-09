@@ -1,0 +1,11 @@
+numpy
+sympy
+pyeda
+matplotlib
+pyyaml
+git+git://github.com/yuce/pyswip@9642fd9#egg=pyswip
+pybullet
+networkx
+pydot
+trimesh
+minio

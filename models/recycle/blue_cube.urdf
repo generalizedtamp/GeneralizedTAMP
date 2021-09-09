@@ -1,0 +1,72 @@
+<?xml version="0.0"?>
+<robot name="stove">
+  <link name="base">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.0005"/>
+      <material name="red">
+        <color rgba="0 0 1 1"/>
+      </material>
+      <geometry>
+        <box size="0.03 0.03 0.03"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0.0005"/>
+      <geometry>
+        <box size="0.03 0.03 0.03"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="-0.01 -0.01 -0.01" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="1e-7"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.01 0.01 -0.01" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="1e-7"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.01 0.01 -0.01" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="1e-7"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.01 -0.01 -0.01" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="1e-7"/>
+      </geometry>
+    </collision>
+
+    <collision>
+      <origin xyz="-0.01 -0.01 0.01" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="1e-7"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.01 0.01 0.01" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="1e-7"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.01 0.01 0.01" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="1e-7"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.01 -0.01 0.01" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="1e-7"/>
+      </geometry>
+    </collision>
+
+  </link>
+</robot>
